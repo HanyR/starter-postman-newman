@@ -1,0 +1,34 @@
+{
+  "name": "starter-postman-newman",
+  "version": "1.0.0",
+  "description": "postman newman runner",
+  "main": "main.ts",
+  "scripts": {
+    "clean":"rimraf ./newman",
+    "test": "npx ts-node ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanyR/starter-postman-newman.git"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "testautomation"
+  ],
+  "author": "hanyrp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanyR/starter-postman-newman/issues"
+  },
+  "homepage": "https://github.com/HanyR/starter-postman-newman#readme",
+  "dependencies": {
+    "newman": "^5.3.2",
+    "rimraf": "^4.0.4",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/newman": "^5.3.1",
+    "@types/node": "^18.11.18"
+  }
+}
